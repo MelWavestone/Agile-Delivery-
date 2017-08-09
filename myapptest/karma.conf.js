@@ -19,16 +19,7 @@ module.exports = function(config) {
     ],
 
 
-    // list of files to exclude
-    exclude: [
-    ],
-
-
-    // preprocess matching files before serving them to the browser
-    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-    },
-
+   
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
@@ -39,12 +30,7 @@ module.exports = function(config) {
     // web server port
     port: 9090
     
-});singleRun = true;
-    reporters = ['dots', 'junit'];
-    junitReporter = {
-      outputFile: 'test-results.xml'
-    };
+});
 };
 
-    // enable / disable colors in the output (reporters and logs)
                                                                        
