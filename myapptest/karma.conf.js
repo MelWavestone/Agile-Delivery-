@@ -38,7 +38,12 @@ module.exports = function(config) {
 
     // web server port
     port: 9090
-});
+    
+});singleRun = true;
+    reporters = ['dots', 'junit'];
+    junitReporter = {
+      outputFile: 'test-results.xml'
+    };
 };
 
     // enable / disable colors in the output (reporters and logs)
