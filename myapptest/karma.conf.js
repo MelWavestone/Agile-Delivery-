@@ -25,7 +25,7 @@ module.exports = function(config) {
     
     htmlReporter: {
       outputFile: 'tests/units.html'
-    }
+    },
 
     // web server port
     port: 9876,
